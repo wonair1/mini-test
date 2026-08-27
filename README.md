@@ -66,4 +66,4 @@ T4 한 장에서는 분석 요청을 동시에 하나만 처리하도록 Gradio 
 
 `resemble-perth` 1.0.1은 내부적으로 `pkg_resources`를 사용합니다. `setuptools` 81 이상에서는 이 모듈이 제거되어 Perth가 오류를 숨긴 채 `PerthImplicitWatermarker = None`으로 설정됩니다. 따라서 TTS 환경에서는 반드시 `setuptools==80.9.0`을 사용해야 합니다. 수정 노트북의 **Perth 복구** 셀을 실행하면 이미 만든 환경도 바로 복구됩니다.
 
-해당 파일은 chatgpt codex를 이용하여 만들어졌습니다.
+해당 프로젝트는 chatgpt-codex gpt-terra 5.6을 이용하여 만들어졌습니다. 실제로 구동하기 위해서는 클라우드 환경이나 로컬 환경이 필요합니다.

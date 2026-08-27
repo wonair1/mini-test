@@ -1,0 +1,4 @@
+setuptools==80.9.0
+chatterbox-tts==0.1.7
+fastapi==0.115.12
+uvicorn[standard]==0.34.0
